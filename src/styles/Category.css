@@ -1,0 +1,66 @@
+* {
+    background-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title  {
+    background-color: #B4D4FF;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.title #logo {
+    background-color: #B4D4FF;
+    margin: 10px 30px;
+}
+
+.title #heading {
+    background-color: #B4D4FF;
+    text-decoration: none;
+    margin: auto;
+}
+
+.title img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    background-color: #B4D4FF;
+}
+
+.title h1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 3rem;
+    color: #176B87;
+    background-color: #B4D4FF;
+}
+
+.category-container {
+    margin: 10px 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.category-container a {
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    color: #EEF5FF;
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: #176B87;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: #9BB8CD 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+

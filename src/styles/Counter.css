@@ -1,0 +1,33 @@
+.counter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.count-value input {
+    width: 500px;
+    height: 250px;
+    margin: 15px;
+    border: none;
+    background-color: #BFCFE7;
+    color: #3D3B40;
+    font-size: 8rem;
+    border-radius: 20px;
+    cursor: default;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.action button {
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    color: #EEF5FF;
+    font-size: 1.2rem;
+    background-color: #3D3B40;
+    border-radius: 10px;
+    cursor: pointer;
+}
