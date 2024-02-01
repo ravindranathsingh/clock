@@ -1,27 +1,36 @@
-.counter {
+.timer-container {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-rows: auto;
+    place-items: center;
+    margin-top: 30px;
 }
 
-.count-value input {
+.timer {
     width: 500px;
     height: 250px;
-    margin: 15px;
-    border: none;
     background-color: #BFCFE7;
-    color: #3D3B40;
-    font-size: 8rem;
     border-radius: 20px;
     cursor: default;
+    display: grid;
+    place-items: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.action {
+.timer h1{
+    background-color: #BFCFE7;
+    font-size: 6rem;
+    margin: auto;
+    color: #3D3B40;
+}
+
+.timer-btn {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.action button {
+.timer-btn button {
     margin: 20px;
     padding: 10px;
     width: 100px;
@@ -32,8 +41,8 @@
     cursor: pointer;
 }
 
-.action button:hover{
+.timer-btn button:hover{
     background-color: #fff;
-    color: #3D3B40;    
+    color: #3D3B40;
     font-weight: 600;
 }

@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
+import "../styles/StopWatch.css";
 
 export const StopWatch = () => {
 
-  const [time, SetTime ] = useState(0);
+  const [time, SetTime ] = useState(0, false);
 
   useEffect(() => {
     return () => clearInterval(id.current);
@@ -18,11 +19,11 @@ export const StopWatch = () => {
   
   
   return (
-    <div>
-      <div>
-        <h1>{time}</h1>
+    <div className='sw-container'>
+      <div className='stop-watch'>
+        <h1>{time} secs</h1>
       </div>
-      <div>
+      <div className='sw-btn'>
         <button onClick={() => handleTime()}>Start</button>
         <button onClick={() => clearInterval(id.current)}>Stop</button>
         <button onClick={() => {

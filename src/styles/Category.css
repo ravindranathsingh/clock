@@ -64,3 +64,8 @@
     box-shadow: #9BB8CD 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+.category-container a:hover {
+    background-color: #EEF5FF;
+    color: #176B87;
+    font-weight: 600;
+}

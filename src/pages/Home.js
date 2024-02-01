@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import "../styles/Home.css"
 
 const Home = () => {
 
@@ -11,9 +12,9 @@ const Home = () => {
   setInterval(digitalTime, 1000)
 
   return (
-    <div>
-      <div>
-        <h1>Time is : {currentTime}</h1>
+    <div className='home-container'>
+      <div className='time'>
+        <h1>{currentTime}</h1>
       </div>
     </div>
   )

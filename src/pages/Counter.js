@@ -25,8 +25,7 @@ export const Counter = () => {
         <button onClick={() => Increase()}>Increase</button>
         <button onClick={() => Decrease()}>Decrease</button>
         <button onClick={() => Clear()}>Clear</button>
-      </div>
-      
+      </div>      
     </div>
   )
 }

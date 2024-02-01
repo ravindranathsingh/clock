@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
+import "../styles/Timmer.css";
 
 const Timmer = () => {
 
-  const [time, SetTime ] = useState(1000);
+  const [time, SetTime ] = useState(60);
 
   useEffect(() => {
     return () => clearInterval(id.current);
@@ -17,16 +18,16 @@ const Timmer = () => {
   }
 
   return (
-    <div>
-      <div>
-        <h1>{time}</h1>
+    <div className='timer-container'>
+      <div className='timer'>
+        <h1>{time} secs</h1>
       </div>
-      <div>
+      <div className='timer-btn'>
         <button onClick={() => handleTime()}>Start</button>
         <button onClick={() => clearInterval(id.current)}>Stop</button>
         <button onClick={() => {
           clearInterval(id.current);
-          SetTime(1000);          
+          SetTime(60);          
         }}>Reset</button>
       </div>
     </div>
